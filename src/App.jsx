@@ -26,16 +26,18 @@ import {
 } from 'lucide-react';
 
 // Exact extracted visual assets from the reference design
+
 const IMAGES = {
-  heroDosa: "/assets/hero_dosa.jpg",
-  storySnacks: "/assets/story_snacks.jpg",
-  storyMeal: "/assets/story_meal.jpg",
-  familyDosa: "/assets/dish_family_dosa.jpg",
-  ravaDosa: "/assets/dish_rava_dosa.jpg",
-  pongalVada: "/assets/dish_pongal_vada.jpg",
-  vegMeals: "/assets/dish_veg_meals.jpg",
-  filterCoffee: "/assets/dish_filter_coffee.jpg",
+  heroDosa: `${import.meta.env.BASE_URL}assets/hero_dosa.jpg`,
+  storySnacks: `${import.meta.env.BASE_URL}assets/story_snacks.jpg`,
+  storyMeal: `${import.meta.env.BASE_URL}assets/story_meal.jpg`,
+  familyDosa: `${import.meta.env.BASE_URL}assets/dish_family_dosa.jpg`,
+  ravaDosa: `${import.meta.env.BASE_URL}assets/dish_rava_dosa.jpg`,
+  pongalVada: `${import.meta.env.BASE_URL}assets/dish_pongal_vada.jpg`,
+  vegMeals: `${import.meta.env.BASE_URL}assets/dish_veg_meals.jpg`,
+  filterCoffee: `${import.meta.env.BASE_URL}assets/dish_filter_coffee.jpg`,
 };
+
 
 const SIGNATURE_DISHES = [
   {
