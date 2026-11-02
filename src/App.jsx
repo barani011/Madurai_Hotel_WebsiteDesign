@@ -28,14 +28,14 @@ import {
 // Exact extracted visual assets from the reference design
 
 const IMAGES = {
-  heroDosa: `${import.meta.env.BASE_URL}hotel-temple-city-website/public/assets/hero_dosa.jpg`,
-  storySnacks: `${import.meta.env.BASE_URL}hotel-temple-city-website/public/assets/story_snacks.jpg`,
-  storyMeal: `${import.meta.env.BASE_URL}hotel-temple-city-website/public/assets/story_meal.jpg`,
-  familyDosa: `${import.meta.env.BASE_URL}hotel-temple-city-website/public/assets/dish_family_dosa.jpg`,
-  ravaDosa: `${import.meta.env.BASE_URL}hotel-temple-city-website/public/assets/dish_rava_dosa.jpg`,
-  pongalVada: `${import.meta.env.BASE_URL}hotel-temple-city-website/public/assets/dish_pongal_vada.jpg`,
-  vegMeals: `${import.meta.env.BASE_URL}hotel-temple-city-website/public/assets/dish_veg_meals.jpg`,
-  filterCoffee: `${import.meta.env.BASE_URL}hotel-temple-city-website/public/assets/dish_filter_coffee.jpg`,
+  heroDosa: `${import.meta.env.BASE_URL}public/assets/hero_dosa.jpg`,
+  storySnacks: `${import.meta.env.BASE_URL}public/assets/story_snacks.jpg`,
+  storyMeal: `${import.meta.env.BASE_URL}public/assets/story_meal.jpg`,
+  familyDosa: `${import.meta.env.BASE_URL}public/assets/dish_family_dosa.jpg`,
+  ravaDosa: `${import.meta.env.BASE_URL}public/assets/dish_rava_dosa.jpg`,
+  pongalVada: `${import.meta.env.BASE_URL}public/assets/dish_pongal_vada.jpg`,
+  vegMeals: `${import.meta.env.BASE_URL}public/assets/dish_veg_meals.jpg`,
+  filterCoffee: `${import.meta.env.BASE_URL}public/assets/dish_filter_coffee.jpg`,
 };
 
 
